@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+env/
+venv/
+.myenv/
+myenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS files
+.DS_Store
+
+# Streamlit-specific files
+.streamlit/
+
+# Log files
+*.log
+
+# Ignore requirements.txt if you are generating it dynamically
+# Uncomment the line below if not manually managing
+# requirements.txt
+
+# Ignore .env files (if using environment variables)
+.env
+
+# Ignore secret keys or configuration files
+config.yaml
+credentials.json
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Compiled static files
+*.min.js
+*.min.css
+*.map
+
+# Ignore data files (optional, if you don't want to track datasets)
+*.csv
+*.xlsx
+*.json
